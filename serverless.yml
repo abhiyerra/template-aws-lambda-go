@@ -29,6 +29,8 @@ provider:
   #         - - "arn:aws:s3:::"
   #           - "Ref" : "setupname"
   #           - '/*'
+plugins:
+  - serverless-dynamodb-local
 
 functions:
   flywheel:
