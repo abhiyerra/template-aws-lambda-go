@@ -36,9 +36,9 @@ functions:
   flywheel:
     handler: ./bootstrap
     timeout: 29
-    memorySize: 512
-    events:
-      - httpApi: '*'
+    memorySize: 128
+    url:
+      cors: true
   # handler:
   #   timeout: 300
   #   memorySize: 512
